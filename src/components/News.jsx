@@ -23,19 +23,7 @@ export default function NewsHome() {
      <Navbar />
     <div className="max-w-7xl mx-auto px-4 py-2 bg-white text-[#333] font-serif">
       {/* --- Navigation Bar --- */}
-     <nav className="border-b border-gray-300 mb-6 py-2 overflow-x-auto whitespace-nowrap scrollbar-hide">
-        <ul className="flex space-x-6 text-xs font-sans font-bold uppercase text-gray-700">
-          <li className="border-b-2 border-red-600">Weekly edition</li>
-          <li>The world in brief</li>
-          <li>World Ahead 2026</li>
-          <li>War in Ukraine</li>
-          <li>United States</li>
-          <li>Middle East</li>
-          <li>The world economy</li>
-          <li>Business</li>
-          <li>Artificial intelligence</li>
-        </ul>
-      </nav>
+    
 
       {/* --- Top News Section (Image Design Followed) --- */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-12">
